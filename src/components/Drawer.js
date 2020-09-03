@@ -114,5 +114,6 @@ export default function TemporaryDrawer() {
   
 
 function BttnLogout(){
-    
+    localStorage.clear();
+    window.location.reload();
 };
