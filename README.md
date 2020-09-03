@@ -20,4 +20,4 @@ No me es posible hacer el deploy en Azure debido a que para crear una nueva cuen
 
 ## Firebase ##
 
-[Firebase](https://ieti-lab3-35737.web.app)
+[Firebase](https://ieti-lab3-35737.firebaseapp.com)
