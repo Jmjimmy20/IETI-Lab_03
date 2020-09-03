@@ -34,6 +34,8 @@ export default function TemporaryDrawer() {
     const classes = useStyles();
     const theme = useTheme();
     const [open, setOpen] = React.useState(false);
+
+    
   
     const handleDrawerOpen = () => {
       setOpen(true);
@@ -81,8 +83,8 @@ export default function TemporaryDrawer() {
           </div>
           <div>
           <AccountBoxIcon className="iconUser"/>
-          <h3>Nombre</h3>
-          <h4>coreo</h4>
+          <h3> {localStorage.getItem('Name')} </h3>
+          <h4>{localStorage.getItem('User')}</h4>
           </div>
           <Divider />
           <div className="logout">
